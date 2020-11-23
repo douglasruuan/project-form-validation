@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.tela {
+    display: flex;
+    height: 100vh;
+}
+
+.areaEsquerda {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaEsquerda img {
+    max-width: 500px;
+    height: auto;
+}
+
+.areaDireita {
+    width: 400px;
+    background-color: #DDD;
+    padding: 50px;
+}
+
+.areaDireita label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.areaDireita input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+
+.error {
+    font-size: 13px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
